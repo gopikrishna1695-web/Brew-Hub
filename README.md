@@ -1553,7 +1553,7 @@
         </div>
 
 <div class="menu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="menu-grid">
-            <-- Coffee -->
+            <!-- Coffee -->
             <div class="menu-item" data-category="coffee">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=1974&auto=format&fit=crop" alt="Honey Lavender Latte" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Honey Lavender Latte</h4><span class="price">$5.50</span></div><p class="desc">Oat milk, local honey &amp; lavender</p></div>
@@ -1570,7 +1570,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=1974&auto=format&fit=crop" alt="Cappuccino" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Cappuccino</h4><span class="price">$4.50</span></div><p class="desc">Velvety foam, chocolate dust</p></div>
             </div>
-            <-- Tea -->
+            <!-- Tea -->
             <div class="menu-item" data-category="tea">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=1964&auto=format&fit=crop" alt="Matcha Latte" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Matcha Latte</h4><span class="price">$5.25</span></div><p class="desc">Ceremonial matcha, oat milk</p></div>
@@ -1583,7 +1583,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=1974&auto=format&fit=crop" alt="Herbal Infusion" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Herbal Infusion</h4><span class="price">$3.75</span></div><p class="desc">Chamomile, lavender, honey</p></div>
             </div>
-            <-- Breakfast -->
+            <!-- Breakfast -->
             <div class="menu-item" data-category="breakfast">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1974&auto=format&fit=crop" alt="Smoked Salmon Toast" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Smoked Salmon Toast</h4><span class="price">$12.00</span></div><p class="desc">Dill cream cheese, capers, lemon</p></div>
@@ -1596,7 +1596,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=2070&auto=format&fit=crop" alt="Granola Bowl" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Granola Bowl</h4><span class="price">$9.00</span></div><p class="desc">Yogurt, berries, house granola</p></div>
             </div>
-            <-- Desserts -->
+            <!-- Desserts -->
             <div class="menu-item" data-category="desserts">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1558857563-b371033873b8?q=80&w=1974&auto=format&fit=crop" alt="Matcha Tiramisu" loading="lazy" /></div>
                 <div class="chef-badge">Chef's Special</div>
@@ -1610,7 +1610,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1964&auto=format&fit=crop" alt="Vegan Cookie Trio" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Vegan Cookie Trio</h4><span class="price">$5.00</span></div><p class="desc">Chocolate, oat, coconut</p></div>
             </div>
-            <-- Specials -->
+            <!-- Specials -->
             <div class="menu-item" data-category="specials">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?q=80&w=1974&auto=format&fit=crop" alt="Seasonal Pumpkin Spice Latte" loading="lazy" /></div>
                 <div class="chef-badge">Limited</div>
