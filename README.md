@@ -1289,7 +1289,7 @@
             }
         }
 
-    /* ── Grain Texture Overlay ── */
+     /* ── Grain Texture Overlay ── */
 .grain-overlay {
             pointer-events: none;
             position: fixed;
@@ -1867,7 +1867,7 @@
 <script>
         (function() {
             'use strict';
-
+            
 // ── Scroll Progress ──
             const progressBar = document.getElementById('scroll-progress');
             window.addEventListener('scroll', function() {
@@ -2235,7 +2235,7 @@ const lightbox = document.getElementById('lightbox');
             });
 
 // ── Scroll-triggered parallax for hero ──
-            // already handled above
+        // already handled above
 
 // ── Keyboard accessibility for FAQ ──
             document.querySelectorAll('.faq-question').forEach(function(btn) {
@@ -2304,7 +2304,7 @@ function updateActiveNav() {
             updateActiveNav();
 
 // ── Initial stagger for hero buttons ──
-            // Already handled by CSS animations
+// Already handled by CSS animations
 
 console.log('☕ Brew & Co. — Crafted with love.');
         })();
