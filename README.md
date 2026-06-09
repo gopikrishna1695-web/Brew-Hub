@@ -59,7 +59,6 @@
         }
 
     /* ── Scrollbar ── */
-        
 ::-webkit-scrollbar {
             width: 8px;
         }
