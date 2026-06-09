@@ -83,7 +83,7 @@
         .text-balance {
             text-wrap: balance;
         }
-
+        
     /* ── Scroll Progress ── */
 #scroll-progress {
             position: fixed;
@@ -1335,9 +1335,9 @@
     </style>
 </head>
 <body>
-    <-- Scroll Progress -->
+    <!-- Scroll Progress -->
     <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
-    <-- Grain Overlay -->
+    <!-- Grain Overlay -->
     <div class="grain-overlay" aria-hidden="true"></div>
 <!-- Lightbox -->
     <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
