@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -6,14 +6,14 @@
     <title>Brew & Co. | Where Every Cup Tells a Story</title>
     <meta name="description" content="Specialty coffee & handcrafted food in a warm, inviting space. Freshly roasted, artisan pastries, community events." />
     <meta name="theme-color" content="#3C2A1F" />
-    <-- Tailwind CSS + Google Fonts -->
+    <!-- Tailwind CSS + Google Fonts -->
     <script src="https://cdn.tailwindcss.com">
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
  <style>
-        / ── Reset & Base ── */
+        /*── Reset & Base ── */
         *,
         *::before,
         *::after {
@@ -43,8 +43,9 @@
             letter-spacing: -0.02em;
         }
 
- /* ── Color System ── */
-        :root {
+    /* ── Color System ── */
+
+:root {
             --cream: #FFF8F0;
             --beige: #F5F0E8;
             --warm-brown: #8B6F47;
@@ -57,8 +58,9 @@
             --radius-sm: 12px;
         }
 
-/* ── Scrollbar ── */
-        ::-webkit-scrollbar {
+    /* ── Scrollbar ── */
+        
+::-webkit-scrollbar {
             width: 8px;
         }
         ::-webkit-scrollbar-track {
@@ -72,8 +74,8 @@
             background: var(--dark-brown);
         }
 
- /* ── Utility Classes ── */
-        .font-serif {
+    /* ── Utility Classes ── */
+.font-serif {
             font-family: 'Playfair Display', serif;
         }
         .font-sans {
@@ -83,8 +85,8 @@
             text-wrap: balance;
         }
 
-/* ── Scroll Progress ── */
-        #scroll-progress {
+    /* ── Scroll Progress ── */
+#scroll-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -95,8 +97,8 @@
             transition: width 0.1s ease-out;
         }
 
-/* ── Navbar ── */
-        .navbar {
+    /* ── Navbar ── */
+.navbar {
             position: fixed;
             top: 0;
             left: 0;
@@ -251,8 +253,8 @@
             }
         }
 
-/* ── Hero ── */
-        .hero {
+    /* ── Hero ── */
+.hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -435,8 +437,8 @@
             }
         }
 
-/* ── Section Common ── */
-        .section {
+    /* ── Section Common ── */
+.section {
             padding: 6rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
@@ -464,8 +466,8 @@
             font-weight: 300;
         }
 
-/* ── Reveal Animations ── */
-        .reveal {
+    /* ── Reveal Animations ── */
+.reveal {
             opacity: 0;
             transform: translateY(40px);
             transition: all 0.85s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -511,8 +513,8 @@
             transform: translateY(0);
         }
 
-/* ── Highlights Cards ── */
-        .highlight-card {
+    /* ── Highlights Cards ── */
+.highlight-card {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
@@ -550,8 +552,8 @@
             line-height: 1.6;
         }
 
-/* ── Menu Preview ── */
-        .menu-item {
+    /* ── Menu Preview ── */
+.menu-item {
             border-radius: var(--radius-card);
             overflow: hidden;
             background: #fff;
@@ -640,8 +642,8 @@
             }
         }
 
-* ── Testimonials ── */
-        .testimonial-card {
+    /* ── Testimonials ── */
+.testimonial-card {
             background: rgba(255, 255, 255, 0.75);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.6);
@@ -733,8 +735,8 @@
             opacity: 1;
         }
 
-/* ── CTA Section ── */
-        .cta-section {
+    /* ── CTA Section ── */
+.cta-section {
             background: linear-gradient(135deg, var(--dark-brown) 0%, #4D3424 50%, var(--dark-brown) 100%);
             position: relative;
             overflow: hidden;
@@ -816,8 +818,8 @@
             transform: translateY(-3px);
         }
 
-/* ── Menu Page Tabs ── */
-        .menu-tabs {
+    /* ── Menu Page Tabs ── */
+.menu-tabs {
             display: flex;
             gap: 0.5rem;
             flex-wrap: wrap;
@@ -853,8 +855,8 @@
             display: none;
         }
 
-/* ── About ── */
-        .about-story {
+    /* ── About ── */
+.about-story {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -952,8 +954,8 @@
             color: #7A6B5D;
         }
 
-/* ── Gallery Masonry ── */
-        .masonry-grid {
+    /* ── Gallery Masonry ── */
+.masonry-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
             gap: 1rem;
@@ -986,8 +988,8 @@
             grid-column: span 2;
         }
 
-/* ── FAQ Accordion ── */
-        .faq-item {
+    /* ── FAQ Accordion ── */
+.faq-item {
             border-bottom: 1px solid rgba(139, 111, 71, 0.1);
             padding: 0.75rem 0;
         }
@@ -1035,8 +1037,8 @@
             line-height: 1.7;
         }
 
-/* ── Contact Form ── */
-        .contact-form input,
+    /* ── Contact Form ── */
+.contact-form input,
         .contact-form textarea,
         .contact-form select {
             width: 100%;
@@ -1104,8 +1106,8 @@
             display: block;
         }
 
-/* ── Map Placeholder ── */
-        .map-placeholder {
+    /* ── Map Placeholder ── */
+.map-placeholder {
             border-radius: var(--radius-card);
             overflow: hidden;
             background: var(--beige);
@@ -1125,8 +1127,8 @@
             filter: grayscale(0.2) sepia(0.05);
         }
 
-/* ── Footer ── */
-        .footer {
+    /* ── Footer ── */
+.footer {
             background: var(--dark-brown);
             color: rgba(255, 248, 240, 0.8);
             padding: 4rem 2rem 2rem;
@@ -1201,8 +1203,8 @@
             color: rgba(255, 248, 240, 0.35);
         }
 
-/* ── Lightbox ── */
-        .lightbox {
+    /* ── Lightbox ── */
+.lightbox {
             position: fixed;
             inset: 0;
             z-index: 9998;
@@ -1241,8 +1243,8 @@
             opacity: 1;
         }
 
-/* ── Responsive Tweaks ── */
-        @media (max-width: 640px) {
+    /* ── Responsive Tweaks ── */
+@media (max-width: 640px) {
             .section {
                 padding: 4rem 1.25rem;
             }
@@ -1288,8 +1290,8 @@
             }
         }
 
-/* ── Grain Texture Overlay ── */
-        .grain-overlay {
+    /* ── Grain Texture Overlay ── */
+.grain-overlay {
             pointer-events: none;
             position: fixed;
             inset: 0;
@@ -1299,8 +1301,8 @@
             background-size: 200px 200px;
         }
 
-/* ── Loading spinner for form ── */
-        .spinner {
+    /* ── Loading spinner for form ── */
+.spinner {
             display: inline-block;
             width: 18px;
             height: 18px;
@@ -1317,16 +1319,16 @@
             }
         }
 
-/* ── Smooth section separators ── */
-        .section-divider {
+    /* ── Smooth section separators ── */
+.section-divider {
             height: 1px;
             background: linear-gradient(to right, transparent, rgba(139, 111, 71, 0.08), transparent);
             max-width: 1200px;
             margin: 0 auto;
         }
 
-/* ── Focus visible for accessibility ── */
-        *:focus-visible {
+    /* ── Focus visible for accessibility ── */
+*:focus-visible {
             outline: 2px solid var(--warm-brown);
             outline-offset: 2px;
             border-radius: 4px;
@@ -1338,12 +1340,12 @@
     <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
     <-- Grain Overlay -->
     <div class="grain-overlay" aria-hidden="true"></div>
-<-- Lightbox -->
+<!-- Lightbox -->
     <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
         <button class="close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
         <img id="lightbox-img" src="" alt="Enlarged view" />
     </div>
-<-- ──── NAVBAR ──── -->
+<!-- ──── NAVBAR ──── -->
     <header class="navbar" id="navbar" role="banner">
         <div class="flex items-center justify-between max-w-7xl mx-auto">
             <a href="#home" class="logo" aria-label="Brew & Co. home">Brew & Co.</a>
@@ -1365,8 +1367,8 @@
         </div>
     </header>
 
-<-- ──── HERO ──── -->
-    <section id="home" class="hero" aria-label="Hero">
+<!-- ──── HERO ──── -->
+<section id="home" class="hero" aria-label="Hero">
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-bg-image" id="hero-parallax" aria-hidden="true"></div>
 
@@ -1386,8 +1388,8 @@
         </div>
     </section>
 
-<-- ──── HIGHLIGHTS ──── -->
-    <section class="section" aria-label="Highlights">
+<!-- ──── HIGHLIGHTS ──── -->
+<section class="section" aria-label="Highlights">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Why We're Different</span>
             <h2 class="section-title">Crafted with Purpose</h2>
@@ -1419,8 +1421,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── SIGNATURE MENU PREVIEW ──── -->
-    <section class="section" aria-label="Signature Menu Preview">
+<!-- ──── SIGNATURE MENU PREVIEW ──── -->
+ <section class="section" aria-label="Signature Menu Preview">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Our Signatures</span>
             <h2 class="section-title">From Our Kitchen to Your Heart</h2>
@@ -1488,8 +1490,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── TESTIMONIALS ──── -->
-    <section class="section" aria-label="Testimonials">
+<!-- ──── TESTIMONIALS ──── -->
+<section class="section" aria-label="Testimonials">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Testimonials</span>
             <h2 class="section-title">What Our Community Says</h2>
@@ -1506,8 +1508,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── INSTAGRAM FEED ──── -->
-    <section class="section" aria-label="Instagram Feed">
+<!-- ──── INSTAGRAM FEED ──── -->
+<section class="section" aria-label="Instagram Feed">
         <div class="text-center mb-10 reveal">
             <span class="section-label">@brewandco</span>
             <h2 class="section-title">Follow Us on Instagram</h2>
@@ -1523,8 +1525,8 @@
         </div>
     </section>
 
-<-- ──── CTA SECTION ──── -->
-    <section class="cta-section" aria-label="Call to action">
+<!-- ──── CTA SECTION ──── -->
+<section class="cta-section" aria-label="Call to action">
         <div class="content reveal">
             <h2>Ready for Your Next <br />Favorite Cup?</h2>
             <p>Come in, settle in, and let us take care of the rest. Your table is waiting.</p>
@@ -1535,8 +1537,8 @@
         </div>
     </section>
 
-<-- ──── MENU PAGE ──── -->
-    <section id="menu" class="section" aria-label="Full Menu">
+<!-- ──── MENU PAGE ──── -->
+<section id="menu" class="section" aria-label="Full Menu">
         <div class="text-center mb-10 reveal">
             <span class="section-label">Our Menu</span>
             <h2 class="section-title">Crafted for Every Craving</h2>
@@ -1628,8 +1630,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── ABOUT PAGE ──── -->
-    <section id="about" class="section" aria-label="About Us">
+<!-- ──── ABOUT PAGE ──── -->
+<section id="about" class="section" aria-label="About Us">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Our Story</span>
             <h2 class="section-title">Born from a Love for <br />Connection &amp; Craft</h2>
@@ -1646,8 +1648,8 @@
             </div>
         </div>
 
-<-- Mission & Values -->
-        <div class="text-center mb-10 reveal">
+<!-- Mission & Values -->
+<div class="text-center mb-10 reveal">
             <span class="section-label">Our Values</span>
             <h2 class="section-title text-3xl">What We Stand For</h2>
         </div>
@@ -1658,8 +1660,8 @@
             <div class="value-item stagger-item"><div class="v-icon">✨</div><h4>Inclusivity</h4><p>Every identity, every story — you belong here.</p></div>
         </div>
 
-<-- Meet the Team -->
-        <div class="text-center mb-10 reveal">
+<!-- Meet the Team -->
+<div class="text-center mb-10 reveal">
             <span class="section-label">Meet the Team</span>
             <h2 class="section-title text-3xl">The Faces Behind Your Cup</h2>
         </div>
@@ -1702,8 +1704,8 @@
             </div>
         </div>
 
-<-- Behind the Scenes Gallery -->
-        <div class="text-center mb-10 reveal">
+<!-- Behind the Scenes Gallery -->
+<div class="text-center mb-10 reveal">
             <span class="section-label">Behind the Scenes</span>
             <h2 class="section-title text-3xl">Moments That Make Us</h2>
         </div>
@@ -1719,8 +1721,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── FAQ PAGE ──── -->
-    <section id="faq" class="section" aria-label="Frequently Asked Questions">
+<!-- ──── FAQ PAGE ──── -->
+<section id="faq" class="section" aria-label="Frequently Asked Questions">
         <div class="text-center mb-12 reveal">
             <span class="section-label">FAQ</span>
             <h2 class="section-title">Your Questions, Answered</h2>
@@ -1756,8 +1758,8 @@
 
 <div class="section-divider"></div>
 
-<-- ──── CONTACT PAGE ──── -->
-    <section id="contact" class="section" aria-label="Contact Us">
+<!-- ──── CONTACT PAGE ──── -->
+<section id="contact" class="section" aria-label="Contact Us">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Get in Touch</span>
             <h2 class="section-title">We'd Love to Hear From You</h2>
@@ -1814,8 +1816,8 @@
         </div>
     </section>
 
-<-- ──── FOOTER ──── -->
-    <footer class="footer" role="contentinfo">
+<!-- ──── FOOTER ──── -->
+<footer class="footer" role="contentinfo">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
                 <div>
@@ -1862,8 +1864,8 @@
         </div>
     </footer>
 
-<-- ──── JAVASCRIPT ──── -->
-    <script>
+<!-- ──── JAVASCRIPT ──── -->
+<script>
         (function() {
             'use strict';
 
