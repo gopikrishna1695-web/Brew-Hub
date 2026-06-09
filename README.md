@@ -6,16 +6,14 @@
     <title>Brew & Co. | Where Every Cup Tells a Story</title>
     <meta name="description" content="Specialty coffee & handcrafted food in a warm, inviting space. Freshly roasted, artisan pastries, community events." />
     <meta name="theme-color" content="#3C2A1F" />
-
-    <!-- Tailwind CSS + Google Fonts -->
+    <-- Tailwind CSS + Google Fonts -->
     <script src="https://cdn.tailwindcss.com">
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-    <style>
-        /* ── Reset & Base ── */
+ <style>
+        / ── Reset & Base ── */
         *,
         *::before,
         *::after {
@@ -45,7 +43,7 @@
             letter-spacing: -0.02em;
         }
 
-        /* ── Color System ── */
+ /* ── Color System ── */
         :root {
             --cream: #FFF8F0;
             --beige: #F5F0E8;
@@ -59,7 +57,7 @@
             --radius-sm: 12px;
         }
 
-        /* ── Scrollbar ── */
+/* ── Scrollbar ── */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -74,7 +72,7 @@
             background: var(--dark-brown);
         }
 
-        /* ── Utility Classes ── */
+ /* ── Utility Classes ── */
         .font-serif {
             font-family: 'Playfair Display', serif;
         }
@@ -85,7 +83,7 @@
             text-wrap: balance;
         }
 
-        /* ── Scroll Progress ── */
+/* ── Scroll Progress ── */
         #scroll-progress {
             position: fixed;
             top: 0;
@@ -97,7 +95,7 @@
             transition: width 0.1s ease-out;
         }
 
-        /* ── Navbar ── */
+/* ── Navbar ── */
         .navbar {
             position: fixed;
             top: 0;
@@ -196,7 +194,7 @@
             transform: rotate(-45deg) translate(5px, -5px);
         }
 
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .navbar {
                 padding: 0.6rem 1.25rem;
             }
@@ -253,7 +251,7 @@
             }
         }
 
-        /* ── Hero ── */
+/* ── Hero ── */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -376,7 +374,7 @@
             transform: translateY(-3px);
         }
 
-        .hero-scroll-indicator {
+.hero-scroll-indicator {
             position: absolute;
             bottom: 2.5rem;
             left: 50%;
@@ -399,7 +397,7 @@
             background: linear-gradient(to bottom, rgba(255, 248, 240, 0.3), transparent);
         }
 
-        @keyframes fadeInUp {
+@keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
@@ -437,7 +435,7 @@
             }
         }
 
-        /* ── Section Common ── */
+/* ── Section Common ── */
         .section {
             padding: 6rem 2rem;
             max-width: 1200px;
@@ -466,7 +464,7 @@
             font-weight: 300;
         }
 
-        /* ── Reveal Animations ── */
+/* ── Reveal Animations ── */
         .reveal {
             opacity: 0;
             transform: translateY(40px);
@@ -513,7 +511,7 @@
             transform: translateY(0);
         }
 
-        /* ── Highlights Cards ── */
+/* ── Highlights Cards ── */
         .highlight-card {
             background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(12px);
@@ -552,7 +550,7 @@
             line-height: 1.6;
         }
 
-        /* ── Menu Preview ── */
+/* ── Menu Preview ── */
         .menu-item {
             border-radius: var(--radius-card);
             overflow: hidden;
@@ -642,7 +640,7 @@
             }
         }
 
-        /* ── Testimonials ── */
+* ── Testimonials ── */
         .testimonial-card {
             background: rgba(255, 255, 255, 0.75);
             backdrop-filter: blur(12px);
@@ -702,7 +700,7 @@
             background: var(--warm-brown);
         }
 
-        /* ── Instagram Grid ── */
+/* ── Instagram Grid ── */
         .insta-item {
             border-radius: var(--radius-sm);
             overflow: hidden;
@@ -735,7 +733,7 @@
             opacity: 1;
         }
 
-        /* ── CTA Section ── */
+/* ── CTA Section ── */
         .cta-section {
             background: linear-gradient(135deg, var(--dark-brown) 0%, #4D3424 50%, var(--dark-brown) 100%);
             position: relative;
@@ -818,7 +816,7 @@
             transform: translateY(-3px);
         }
 
-        /* ── Menu Page Tabs ── */
+/* ── Menu Page Tabs ── */
         .menu-tabs {
             display: flex;
             gap: 0.5rem;
@@ -855,7 +853,7 @@
             display: none;
         }
 
-        /* ── About ── */
+/* ── About ── */
         .about-story {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -886,7 +884,7 @@
             }
         }
 
-        .value-item {
+.value-item {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -922,7 +920,7 @@
             margin-top: 0.3rem;
         }
 
-        .team-member {
+.team-member {
             text-align: center;
             transition: all 0.4s;
         }
@@ -954,7 +952,7 @@
             color: #7A6B5D;
         }
 
-        /* ── Gallery Masonry ── */
+/* ── Gallery Masonry ── */
         .masonry-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -988,7 +986,7 @@
             grid-column: span 2;
         }
 
-        /* ── FAQ Accordion ── */
+/* ── FAQ Accordion ── */
         .faq-item {
             border-bottom: 1px solid rgba(139, 111, 71, 0.1);
             padding: 0.75rem 0;
@@ -1037,7 +1035,7 @@
             line-height: 1.7;
         }
 
-        /* ── Contact Form ── */
+/* ── Contact Form ── */
         .contact-form input,
         .contact-form textarea,
         .contact-form select {
@@ -1106,7 +1104,7 @@
             display: block;
         }
 
-        /* ── Map Placeholder ── */
+/* ── Map Placeholder ── */
         .map-placeholder {
             border-radius: var(--radius-card);
             overflow: hidden;
@@ -1127,7 +1125,7 @@
             filter: grayscale(0.2) sepia(0.05);
         }
 
-        /* ── Footer ── */
+/* ── Footer ── */
         .footer {
             background: var(--dark-brown);
             color: rgba(255, 248, 240, 0.8);
@@ -1203,7 +1201,7 @@
             color: rgba(255, 248, 240, 0.35);
         }
 
-        /* ── Lightbox ── */
+/* ── Lightbox ── */
         .lightbox {
             position: fixed;
             inset: 0;
@@ -1243,7 +1241,7 @@
             opacity: 1;
         }
 
-        /* ── Responsive Tweaks ── */
+/* ── Responsive Tweaks ── */
         @media (max-width: 640px) {
             .section {
                 padding: 4rem 1.25rem;
@@ -1281,7 +1279,7 @@
             }
         }
 
-        @media (min-width: 641px) and (max-width: 1024px) {
+@media (min-width: 641px) and (max-width: 1024px) {
             .section {
                 padding: 5rem 2rem;
             }
@@ -1290,7 +1288,7 @@
             }
         }
 
-        /* ── Grain Texture Overlay ── */
+/* ── Grain Texture Overlay ── */
         .grain-overlay {
             pointer-events: none;
             position: fixed;
@@ -1301,7 +1299,7 @@
             background-size: 200px 200px;
         }
 
-        /* ── Loading spinner for form ── */
+/* ── Loading spinner for form ── */
         .spinner {
             display: inline-block;
             width: 18px;
@@ -1319,7 +1317,7 @@
             }
         }
 
-        /* ── Smooth section separators ── */
+/* ── Smooth section separators ── */
         .section-divider {
             height: 1px;
             background: linear-gradient(to right, transparent, rgba(139, 111, 71, 0.08), transparent);
@@ -1327,7 +1325,7 @@
             margin: 0 auto;
         }
 
-        /* ── Focus visible for accessibility ── */
+/* ── Focus visible for accessibility ── */
         *:focus-visible {
             outline: 2px solid var(--warm-brown);
             outline-offset: 2px;
@@ -1336,25 +1334,21 @@
     </style>
 </head>
 <body>
-
-    <!-- Scroll Progress -->
+    <-- Scroll Progress -->
     <div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
-
-    <!-- Grain Overlay -->
+    <-- Grain Overlay -->
     <div class="grain-overlay" aria-hidden="true"></div>
-
-    <!-- Lightbox -->
+<-- Lightbox -->
     <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
         <button class="close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
         <img id="lightbox-img" src="" alt="Enlarged view" />
     </div>
-
-    <!-- ──── NAVBAR ──── -->
+<-- ──── NAVBAR ──── -->
     <header class="navbar" id="navbar" role="banner">
         <div class="flex items-center justify-between max-w-7xl mx-auto">
             <a href="#home" class="logo" aria-label="Brew & Co. home">Brew & Co.</a>
 
-            <nav class="nav-links flex items-center gap-6" id="nav-links" aria-label="Main navigation">
+<nav class="nav-links flex items-center gap-6" id="nav-links" aria-label="Main navigation">
                 <a href="#home" class="nav-link" data-nav>Home</a>
                 <a href="#menu" class="nav-link" data-nav>Menu</a>
                 <a href="#about" class="nav-link" data-nav>About</a>
@@ -1363,20 +1357,20 @@
                 <button class="cta-btn-mobile" onclick="document.querySelector('[data-nav-cta]').click()">Order Online</button>
             </nav>
 
-            <button class="cta-btn hidden md:inline-block" data-nav-cta onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Order Online</button>
+<button class="cta-btn hidden md:inline-block" data-nav-cta onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Order Online</button>
 
-            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+<button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
-    <!-- ──── HERO ──── -->
+<-- ──── HERO ──── -->
     <section id="home" class="hero" aria-label="Hero">
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-bg-image" id="hero-parallax" aria-hidden="true"></div>
 
-        <div class="hero-content">
+<div class="hero-content">
             <span class="badge">☕ Specialty Coffee Since 2018</span>
             <h1>Where Every Cup <br /><span class="highlight">Tells a Story</span></h1>
             <p>Handcrafted coffee &amp; artisan food in a space built for connection. Welcome to your new favorite place.</p>
@@ -1386,13 +1380,13 @@
             </div>
         </div>
 
-        <div class="hero-scroll-indicator" aria-hidden="true">
+<div class="hero-scroll-indicator" aria-hidden="true">
             <span>Scroll</span>
             <div class="scroll-line"></div>
         </div>
     </section>
 
-    <!-- ──── HIGHLIGHTS ──── -->
+<-- ──── HIGHLIGHTS ──── -->
     <section class="section" aria-label="Highlights">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Why We're Different</span>
@@ -1423,9 +1417,9 @@
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── SIGNATURE MENU PREVIEW ──── -->
+<-- ──── SIGNATURE MENU PREVIEW ──── -->
     <section class="section" aria-label="Signature Menu Preview">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Our Signatures</span>
@@ -1492,9 +1486,9 @@
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── TESTIMONIALS ──── -->
+<-- ──── TESTIMONIALS ──── -->
     <section class="section" aria-label="Testimonials">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Testimonials</span>
@@ -1510,9 +1504,9 @@
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── INSTAGRAM FEED ──── -->
+<-- ──── INSTAGRAM FEED ──── -->
     <section class="section" aria-label="Instagram Feed">
         <div class="text-center mb-10 reveal">
             <span class="section-label">@brewandco</span>
@@ -1529,7 +1523,7 @@
         </div>
     </section>
 
-    <!-- ──── CTA SECTION ──── -->
+<-- ──── CTA SECTION ──── -->
     <section class="cta-section" aria-label="Call to action">
         <div class="content reveal">
             <h2>Ready for Your Next <br />Favorite Cup?</h2>
@@ -1541,7 +1535,7 @@
         </div>
     </section>
 
-    <!-- ──── MENU PAGE ──── -->
+<-- ──── MENU PAGE ──── -->
     <section id="menu" class="section" aria-label="Full Menu">
         <div class="text-center mb-10 reveal">
             <span class="section-label">Our Menu</span>
@@ -1549,7 +1543,7 @@
             <p class="section-subtitle mx-auto">From bold espresso to delicate pastries — explore our full offering.</p>
         </div>
 
-        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+<div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
             <button class="active" data-tab="coffee" role="tab" aria-selected="true">☕ Coffee</button>
             <button data-tab="tea" role="tab" aria-selected="false">🍵 Tea</button>
             <button data-tab="breakfast" role="tab" aria-selected="false">🍳 Breakfast</button>
@@ -1557,8 +1551,8 @@
             <button data-tab="specials" role="tab" aria-selected="false">✨ Specials</button>
         </div>
 
-        <div class="menu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="menu-grid">
-            <!-- Coffee -->
+<div class="menu-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="menu-grid">
+            <-- Coffee -->
             <div class="menu-item" data-category="coffee">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=1974&auto=format&fit=crop" alt="Honey Lavender Latte" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Honey Lavender Latte</h4><span class="price">$5.50</span></div><p class="desc">Oat milk, local honey &amp; lavender</p></div>
@@ -1575,7 +1569,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?q=80&w=1974&auto=format&fit=crop" alt="Cappuccino" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Cappuccino</h4><span class="price">$4.50</span></div><p class="desc">Velvety foam, chocolate dust</p></div>
             </div>
-            <!-- Tea -->
+            <-- Tea -->
             <div class="menu-item" data-category="tea">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=1964&auto=format&fit=crop" alt="Matcha Latte" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Matcha Latte</h4><span class="price">$5.25</span></div><p class="desc">Ceremonial matcha, oat milk</p></div>
@@ -1588,7 +1582,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?q=80&w=1974&auto=format&fit=crop" alt="Herbal Infusion" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Herbal Infusion</h4><span class="price">$3.75</span></div><p class="desc">Chamomile, lavender, honey</p></div>
             </div>
-            <!-- Breakfast -->
+            <-- Breakfast -->
             <div class="menu-item" data-category="breakfast">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1974&auto=format&fit=crop" alt="Smoked Salmon Toast" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Smoked Salmon Toast</h4><span class="price">$12.00</span></div><p class="desc">Dill cream cheese, capers, lemon</p></div>
@@ -1601,7 +1595,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=2070&auto=format&fit=crop" alt="Granola Bowl" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Granola Bowl</h4><span class="price">$9.00</span></div><p class="desc">Yogurt, berries, house granola</p></div>
             </div>
-            <!-- Desserts -->
+            <-- Desserts -->
             <div class="menu-item" data-category="desserts">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1558857563-b371033873b8?q=80&w=1974&auto=format&fit=crop" alt="Matcha Tiramisu" loading="lazy" /></div>
                 <div class="chef-badge">Chef's Special</div>
@@ -1615,7 +1609,7 @@
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1964&auto=format&fit=crop" alt="Vegan Cookie Trio" loading="lazy" /></div>
                 <div class="info"><div class="flex justify-between"><h4>Vegan Cookie Trio</h4><span class="price">$5.00</span></div><p class="desc">Chocolate, oat, coconut</p></div>
             </div>
-            <!-- Specials -->
+            <-- Specials -->
             <div class="menu-item" data-category="specials">
                 <div class="img-wrap"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?q=80&w=1974&auto=format&fit=crop" alt="Seasonal Pumpkin Spice Latte" loading="lazy" /></div>
                 <div class="chef-badge">Limited</div>
@@ -1627,21 +1621,21 @@
             </div>
         </div>
 
-        <div class="text-center mt-8 reveal">
+<div class="text-center mt-8 reveal">
             <button class="bg-[var(--beige)] text-[var(--dark-brown)] px-6 py-2.5 rounded-full font-medium text-sm border border-[rgba(139,111,71,0.15)] hover:bg-[var(--warm-brown)] hover:text-white transition-all">📄 Download PDF Menu</button>
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── ABOUT PAGE ──── -->
+<-- ──── ABOUT PAGE ──── -->
     <section id="about" class="section" aria-label="About Us">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Our Story</span>
             <h2 class="section-title">Born from a Love for <br />Connection &amp; Craft</h2>
         </div>
 
-        <div class="about-story mb-16 reveal">
+<div class="about-story mb-16 reveal">
             <div class="image-wrap">
                 <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=2070&auto=format&fit=crop" alt="Our café interior" loading="lazy" />
             </div>
@@ -1652,7 +1646,7 @@
             </div>
         </div>
 
-        <!-- Mission & Values -->
+<-- Mission & Values -->
         <div class="text-center mb-10 reveal">
             <span class="section-label">Our Values</span>
             <h2 class="section-title text-3xl">What We Stand For</h2>
@@ -1664,7 +1658,7 @@
             <div class="value-item stagger-item"><div class="v-icon">✨</div><h4>Inclusivity</h4><p>Every identity, every story — you belong here.</p></div>
         </div>
 
-        <!-- Meet the Team -->
+<-- Meet the Team -->
         <div class="text-center mb-10 reveal">
             <span class="section-label">Meet the Team</span>
             <h2 class="section-title text-3xl">The Faces Behind Your Cup</h2>
@@ -1708,7 +1702,7 @@
             </div>
         </div>
 
-        <!-- Behind the Scenes Gallery -->
+<-- Behind the Scenes Gallery -->
         <div class="text-center mb-10 reveal">
             <span class="section-label">Behind the Scenes</span>
             <h2 class="section-title text-3xl">Moments That Make Us</h2>
@@ -1723,9 +1717,9 @@
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── FAQ PAGE ──── -->
+<-- ──── FAQ PAGE ──── -->
     <section id="faq" class="section" aria-label="Frequently Asked Questions">
         <div class="text-center mb-12 reveal">
             <span class="section-label">FAQ</span>
@@ -1760,9 +1754,9 @@
         </div>
     </section>
 
-    <div class="section-divider"></div>
+<div class="section-divider"></div>
 
-    <!-- ──── CONTACT PAGE ──── -->
+<-- ──── CONTACT PAGE ──── -->
     <section id="contact" class="section" aria-label="Contact Us">
         <div class="text-center mb-12 reveal">
             <span class="section-label">Get in Touch</span>
@@ -1770,7 +1764,7 @@
             <p class="section-subtitle mx-auto">Reserve a table, ask a question, or just say hello.</p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div class="reveal-left">
                 <form class="contact-form space-y-5" id="contact-form" novalidate>
                     <div class="input-group">
@@ -1794,12 +1788,12 @@
                 </form>
             </div>
 
-            <div class="reveal-right space-y-6">
+<div class="reveal-right space-y-6">
                 <div class="map-placeholder">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093667!2d144.9537353153167!3d-37.81627997975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f5a2b7%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1680000000000" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map showing Brew & Co. location"></iframe>
                 </div>
 
-                <div class="bg-white/60 backdrop-blur-sm rounded-[var(--radius-card)] p-6 border border-white/60 shadow-[var(--shadow-glass)]">
+<div class="bg-white/60 backdrop-blur-sm rounded-[var(--radius-card)] p-6 border border-white/60 shadow-[var(--shadow-glass)]">
                     <h4 class="font-sans font-semibold text-[var(--dark-brown)] mb-3">📍 Visit Us</h4>
                     <p class="text-[#7A6B5D] text-sm leading-relaxed">42 Anderson Street, Melbourne VIC 3000</p>
                     <hr class="my-3 border-[rgba(139,111,71,0.08)]" />
@@ -1810,7 +1804,7 @@
                     </div>
                 </div>
 
-                <div class="flex gap-4 text-2xl justify-center lg:justify-start">
+<div class="flex gap-4 text-2xl justify-center lg:justify-start">
                     <a href="#" aria-label="Instagram" class="text-[var(--warm-brown)] hover:text-[var(--dark-brown)] transition-all hover:-translate-y-1">📸</a>
                     <a href="#" aria-label="Facebook" class="text-[var(--warm-brown)] hover:text-[var(--dark-brown)] transition-all hover:-translate-y-1">👍</a>
                     <a href="#" aria-label="Twitter" class="text-[var(--warm-brown)] hover:text-[var(--dark-brown)] transition-all hover:-translate-y-1">🐦</a>
@@ -1820,7 +1814,7 @@
         </div>
     </section>
 
-    <!-- ──── FOOTER ──── -->
+<-- ──── FOOTER ──── -->
     <footer class="footer" role="contentinfo">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
@@ -1868,12 +1862,12 @@
         </div>
     </footer>
 
-    <!-- ──── JAVASCRIPT ──── -->
+<-- ──── JAVASCRIPT ──── -->
     <script>
         (function() {
             'use strict';
 
-            // ── Scroll Progress ──
+// ── Scroll Progress ──
             const progressBar = document.getElementById('scroll-progress');
             window.addEventListener('scroll', function() {
                 const scrollTop = window.scrollY;
@@ -1882,7 +1876,7 @@
                 progressBar.style.width = progress + '%';
             });
 
-            // ── Navbar scroll effect ──
+// ── Navbar scroll effect ──
             const navbar = document.getElementById('navbar');
             window.addEventListener('scroll', function() {
                 if (window.scrollY > 60) {
@@ -1892,7 +1886,7 @@
                 }
             });
 
-            // ── Mobile toggle ──
+// ── Mobile toggle ──
             const toggleBtn = document.getElementById('mobile-toggle');
             const navLinks = document.getElementById('nav-links');
             toggleBtn.addEventListener('click', function() {
@@ -1908,7 +1902,7 @@
                 });
             });
 
-            // ── Hero Parallax ──
+// ── Hero Parallax ──
             const heroParallax = document.getElementById('hero-parallax');
             window.addEventListener('scroll', function() {
                 const scrollY = window.scrollY;
@@ -1920,13 +1914,13 @@
                 }
             });
 
-            // ── Intersection Observer for reveals ──
+// ── Intersection Observer for reveals ──
             const observerOptions = {
                 threshold: 0.1,
                 rootMargin: '0px 0px -40px 0px'
             };
 
-            const observer = new IntersectionObserver(function(entries) {
+const observer = new IntersectionObserver(function(entries) {
                 entries.forEach(function(entry) {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
@@ -1943,12 +1937,12 @@
                 });
             }, observerOptions);
 
-            // Observe all reveal elements
+// Observe all reveal elements
             document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(function(el) {
                 observer.observe(el);
             });
 
-            // Observe stagger items directly if not inside stagger-parent
+// Observe stagger items directly if not inside stagger-parent
             document.querySelectorAll('.stagger-item').forEach(function(el) {
                 // Check if it's inside a stagger-parent
                 if (!el.closest('.stagger-parent')) {
@@ -1956,12 +1950,12 @@
                 }
             });
 
-            // Handle stagger-parent separately
+// Handle stagger-parent separately
             document.querySelectorAll('.stagger-parent').forEach(function(el) {
                 observer.observe(el);
             });
 
-            // Also observe highlight cards, menu items, etc. that use stagger-item
+// Also observe highlight cards, menu items, etc. that use stagger-item
             // We'll use a separate approach: observe all stagger-items with a staggered delay
             const staggerObserver = new IntersectionObserver(function(entries) {
                 entries.forEach(function(entry) {
@@ -1976,12 +1970,12 @@
                 });
             }, observerOptions);
 
-            // Direct observation for stagger items not in parent
+// Direct observation for stagger items not in parent
             document.querySelectorAll('.stagger-item:not(.stagger-parent .stagger-item)').forEach(function(el) {
                 staggerObserver.observe(el);
             });
 
-            // ── Stagger items in grids: observe the grid and stagger children ──
+// ── Stagger items in grids: observe the grid and stagger children ──
             document.querySelectorAll('.grid').forEach(function(grid) {
                 const items = grid.querySelectorAll('.stagger-item');
                 if (items.length > 0) {
@@ -2002,7 +1996,7 @@
                 }
             });
 
-            // ── Testimonials Carousel ──
+// ── Testimonials Carousel ──
             const testimonialData = [{
                 text: '"The most incredible coffee experience. Every drink is crafted with such care and intention. It\'s my happy place."',
                 author: 'Sarah M.',
@@ -2021,13 +2015,13 @@
                 role: 'Digital Nomad'
             }];
 
-            let currentTestimonial = 0;
+let currentTestimonial = 0;
             const testimonialText = document.getElementById('testimonial-text');
             const testimonialAuthor = document.getElementById('testimonial-author');
             const testimonialStars = document.getElementById('testimonial-stars');
             const dotsContainer = document.getElementById('testimonial-dots');
 
-            function buildDots() {
+function buildDots() {
                 dotsContainer.innerHTML = '';
                 testimonialData.forEach(function(_, i) {
                     const btn = document.createElement('button');
@@ -2042,7 +2036,7 @@
             }
             buildDots();
 
-            function goToTestimonial(index) {
+function goToTestimonial(index) {
                 currentTestimonial = index;
                 const data = testimonialData[index];
                 testimonialText.textContent = data.text;
@@ -2062,12 +2056,12 @@
                 }, 150);
             }
 
-            let testimonialInterval = setInterval(function() {
+let testimonialInterval = setInterval(function() {
                 const next = (currentTestimonial + 1) % testimonialData.length;
                 goToTestimonial(next);
             }, 5000);
 
-            // Pause on hover
+// Pause on hover
             const testimonialCard = document.getElementById('testimonial-card');
             testimonialCard.addEventListener('mouseenter', function() {
                 clearInterval(testimonialInterval);
@@ -2079,11 +2073,11 @@
                 }, 5000);
             });
 
-            // ── Menu Tabs ──
+// ── Menu Tabs ──
             const tabButtons = document.querySelectorAll('[data-tab]');
             const menuItems = document.querySelectorAll('.menu-grid .menu-item');
 
-            tabButtons.forEach(function(btn) {
+tabButtons.forEach(function(btn) {
                 btn.addEventListener('click', function() {
                     const tab = btn.getAttribute('data-tab');
                     tabButtons.forEach(function(b) {
@@ -2093,7 +2087,7 @@
                     btn.classList.add('active');
                     btn.setAttribute('aria-selected', 'true');
 
-                    menuItems.forEach(function(item) {
+menuItems.forEach(function(item) {
                         const category = item.getAttribute('data-category');
                         if (tab === category) {
                             item.classList.remove('hidden-item');
@@ -2110,14 +2104,14 @@
                 });
             });
 
-            // ── FAQ Accordion ──
+// ── FAQ Accordion ──
             const faqItems = document.querySelectorAll('.faq-item');
             faqItems.forEach(function(item) {
                 const question = item.querySelector('.faq-question');
                 const answer = item.querySelector('.faq-answer');
                 const icon = question.querySelector('.icon');
 
-                question.addEventListener('click', function() {
+question.addEventListener('click', function() {
                     const isOpen = answer.classList.contains('open');
                     // Close all others
                     faqItems.forEach(function(other) {
@@ -2142,19 +2136,19 @@
                 });
             });
 
-            // ── Contact Form ──
+// ── Contact Form ──
             const contactForm = document.getElementById('contact-form');
             const formSubmit = document.getElementById('form-submit');
             const formSuccess = document.getElementById('form-success');
 
-            contactForm.addEventListener('submit', function(e) {
+contactForm.addEventListener('submit', function(e) {
                 e.preventDefault();
                 // Basic validation
                 const name = document.getElementById('form-name').value.trim();
                 const email = document.getElementById('form-email').value.trim();
                 const message = document.getElementById('form-message').value.trim();
 
-                if (!name || !email || !message) {
+if (!name || !email || !message) {
                     alert('Please fill in all required fields.');
                     return;
                 }
@@ -2163,7 +2157,7 @@
                     return;
                 }
 
-                // Simulate sending
+// Simulate sending
                 formSubmit.disabled = true;
                 formSubmit.innerHTML = '<span class="spinner"></span>Sending...';
                 setTimeout(function() {
@@ -2177,11 +2171,11 @@
                 }, 1500);
             });
 
-            // ── Newsletter ──
+// ── Newsletter ──
             const newsletterForm = document.getElementById('newsletter-form');
             const newsletterMsg = document.getElementById('newsletter-msg');
 
-            newsletterForm.addEventListener('submit', function(e) {
+newsletterForm.addEventListener('submit', function(e) {
                 e.preventDefault();
                 const input = newsletterForm.querySelector('input');
                 if (input.value.trim() && input.value.includes('@')) {
@@ -2197,7 +2191,7 @@
                 }
             });
 
-            // ── Lightbox ──
+// ── Lightbox ──
             window.openLightbox = function(src) {
                 const lightbox = document.getElementById('lightbox');
                 const img = document.getElementById('lightbox-img');
@@ -2206,7 +2200,7 @@
                 document.body.style.overflow = 'hidden';
             };
 
-            const lightbox = document.getElementById('lightbox');
+const lightbox = document.getElementById('lightbox');
             const lightboxClose = document.getElementById('lightbox-close');
             lightboxClose.addEventListener('click', function() {
                 lightbox.classList.remove('open');
@@ -2225,7 +2219,7 @@
                 }
             });
 
-            // ── Smooth scroll for anchor links ──
+// ── Smooth scroll for anchor links ──
             document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
                 anchor.addEventListener('click', function(e) {
                     const targetId = anchor.getAttribute('href');
@@ -2239,10 +2233,10 @@
                 });
             });
 
-            // ── Scroll-triggered parallax for hero ──
+// ── Scroll-triggered parallax for hero ──
             // already handled above
 
-            // ── Keyboard accessibility for FAQ ──
+// ── Keyboard accessibility for FAQ ──
             document.querySelectorAll('.faq-question').forEach(function(btn) {
                 btn.addEventListener('keydown', function(e) {
                     if (e.key === 'Enter' || e.key === ' ') {
@@ -2252,7 +2246,7 @@
                 });
             });
 
-            // ── Lazy load images with Intersection Observer ──
+// ── Lazy load images with Intersection Observer ──
             if ('loading' in HTMLImageElement.prototype) {
                 // Native lazy loading is already used
             } else {
@@ -2275,7 +2269,7 @@
                 });
             }
 
-            // ── Mobile menu: close on escape ──
+// ── Mobile menu: close on escape ──
             document.addEventListener('keydown', function(e) {
                 if (e.key === 'Escape' && navLinks.classList.contains('open')) {
                     navLinks.classList.remove('open');
@@ -2284,11 +2278,11 @@
                 }
             });
 
-            // ── Active nav link highlight on scroll ──
+// ── Active nav link highlight on scroll ──
             const sections = document.querySelectorAll('section[id]');
             const navLinksArray = document.querySelectorAll('[data-nav]');
 
-            function updateActiveNav() {
+function updateActiveNav() {
                 let current = '';
                 sections.forEach(function(section) {
                     const sectionTop = section.offsetTop - 120;
@@ -2308,10 +2302,10 @@
             window.addEventListener('scroll', updateActiveNav);
             updateActiveNav();
 
-            // ── Initial stagger for hero buttons ──
+// ── Initial stagger for hero buttons ──
             // Already handled by CSS animations
 
-            console.log('☕ Brew & Co. — Crafted with love.');
+console.log('☕ Brew & Co. — Crafted with love.');
         })();
     </script>
 
